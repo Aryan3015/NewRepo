@@ -10,9 +10,9 @@ app.use(methodOverride('_method'));
 const mysql = require("mysql2");
 const connection = mysql.createConnection({
     host: 'localhost',
-    user: 'root',
+    user: 'your_user',
     database: "blog_db",
-    password: "aryan"
+    password: "your_password"
 });
 
 // Connect DB
